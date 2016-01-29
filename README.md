@@ -1,4 +1,4 @@
-# Getting and Cleaning Data Project
+## Getting and Cleaning Data Project
 
 This repo contains the files for the final project for the *Getting and Cleaning Data Course*  on Coursera. The purpose of the project is to read the data from the following link:
 
