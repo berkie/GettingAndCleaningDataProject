@@ -16,8 +16,8 @@ The purpose of the project is to to prepare a tidy data set that can be used for
 
 3. Uses descriptive activity names to name the activities in the data set
 
-4. Appropriately labels the data set with descriptive variable names. This tidy data set is 
+4. Appropriately labels the data set with descriptive variable names. This tidy data set is saved to a csv file called **activity.csv**. 
 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. This tidy data set is saved to a csv file called **meanActivity.csv**.
  
-The two tidy data sets that are created as part of this project are stored in comma separated (csv) files.  The first tidy data set created in Step 4 is called **activity.csv**. The second tidy data set created in Step 5 with the average of each variable for each activity and each subject is called **meanActivity.csv**. Finally, there is file called **CodeBook.md** that describes the variables, the data, and the transformations performed to clean up the data.
+This repo also contains a file called **CodeBook.md** that describes the variables, the data, and the transformations performed in the file run_analysis.R to clean up the data.
