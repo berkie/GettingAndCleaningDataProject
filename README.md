@@ -1,6 +1,6 @@
 ## Getting and Cleaning Data Project
 
-This repo contains the files for the final project for the *Getting and Cleaning Data Course*  on Coursera. The purpose of the project is to read the data from the following link:
+This repo contains the files for the final project for the *Getting and Cleaning Data Course*  on Coursera - part of the Data Science Specialization taught by Brian Caffo, Jeff Leek, and Roger Peng from the Johns Hopkins Bloomberg School of Public Health. The purpose of the project is to read, clean, and tidy the data from the following link:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
