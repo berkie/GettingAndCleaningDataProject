@@ -1,11 +1,12 @@
 # Getting and Cleaning Data Project
-This repo contains the files for the final project for the *Getting and Cleaning Data Course*  on Coursera.
 
-The purpose of the project is to read the data from the following link:
+This repo contains the files for the final project for the *Getting and Cleaning Data Course*  on Coursera. The purpose of the project is to read the data from the following link:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-This data set represent data collected from accelerometers from the Samsung Galaxy S smartphone for 30 different subjects in the ages 19 to 48 years. Each of the subjects performed six different activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II) on their waist. The data captures represents 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments were video-recorded and the data was labeled manually. The dataset was randomly partitioned into two sets with 21 (70%) of the volunteers selected for the training data and 9 (30%) of the volunteers for test data. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+This data set represent data collected from accelerometers from the Samsung Galaxy S smartphone for 30 different subjects in the ages 19 to 48 years. Each of the subjects performed six different activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II) on their waist. The data captured represents 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments were video-recorded and the data was labeled manually. The data set was randomly partitioned into two sets with 21 (70%) of the volunteers selected for the training data and 9 (30%) of the volunteers for test data. A full description is available at the site where the data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The purpose of the project is to to prepare a tidy data set that can be used for later analysis. This repository contains an R script called **run_analysis.R** that reads the zip file from the link above, unzips the files, reads the following files: activity_labels.txt, features.txt, X_train.txt, Y_train.txt, subject_train.txt, X_test.txt, Y_test.txt, and subject_test.txt that are all contained in the zip file and then does the following:
 
