@@ -1,6 +1,6 @@
 ## Code Book for the Getting and Cleaning Data Project
 
-This code book describes the variables, data, and transformations performed in the file run_analysis.R to clean up the original data.
+This code book describes the variables, data, and transformations performed in the file **run_analysis.R** to clean up the original data.
 
 The data is downloaded from the link:
 
