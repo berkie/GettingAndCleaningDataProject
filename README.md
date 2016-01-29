@@ -8,7 +8,7 @@ This data set represent data collected from accelerometers from the Samsung Gala
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The purpose of the project is to to prepare a tidy data set that can be used for later analysis. This repository contains an R script called **run_analysis.R** that reads the zip file from the link above, unzips the files, reads the following files: activity_labels.txt, features.txt, X_train.txt, Y_train.txt, subject_train.txt, X_test.txt, Y_test.txt, and subject_test.txt that are all contained in the zip file and then does the following:
+The purpose of the project is to to prepare a tidy data set that can be used for later analysis. This repository contains an R script called **run_analysis.R** that reads the zip file from the link above, unzips its contents, reads the following files contained in the zip file: activity_labels.txt, features.txt, X_train.txt, Y_train.txt, subject_train.txt, X_test.txt, Y_test.txt, and subject_test.txt and then does the following:
 
 1. Merges the training and the test sets to create one data set.
 
