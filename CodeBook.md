@@ -12,9 +12,9 @@ The following steps were taken to clean and transform the original data:
 
 1. Read the zip file from the link above and unzips its contents.
 
-2. Read the file activity_labels.txt. This file contains the six activities performed by the 30 subjects in the study: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING and their numeric label (1 through 6).
+2. Read the file 'activity_labels.txt'. This file contains the six activities performed by the 30 subjects in the study: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING and their numeric label (1 through 6).
 
-3. Read the file features.txt. This file contains the names of 561 different features consisting of time and frequency domain variables. 
+3. Read the file 'features.txt'. This file contains the names of 561 different features consisting of time and frequency domain variables. 
 
 4. Extract only the names of the features related to the mean and standard deviation for each measurement/variable. This results in a subset of 79 feature names.
 
