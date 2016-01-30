@@ -43,9 +43,9 @@ colnames(combinedData) <- c("Subject", "Activity", names)
 
 # Convert activities to factors
 combinedData$Activity <- factor(combinedData$Activity, levels = activityLabels[,1], labels = activityLabels[,2])
-write.csv(combinedData, "activity.csv", row.names = FALSE, quote = FALSE)
+write.csv(combinedData, "activity.txt", row.names = FALSE, quote = FALSE)
 
 tmp_data <- melt(combinedData, id = c("Subject", "Activity"))
 activityData <- dcast(tmp_data, Subject + Activity ~ variable, mean)
 
-write.csv(activityData, "meanActivity.csv", row.names = FALSE, quote = FALSE)
+write.table(activityData, "meanActivity.txt", row.names = FALSE, quote = FALSE)
